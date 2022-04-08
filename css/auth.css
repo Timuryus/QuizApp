@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+}
+
+.row {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row input {
+  margin: 15px 0;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  width: 320px;
+}
+
+.SignIn {
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 15px 30px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.SignIn:hover {
+  background-color: gray;
+}
+
+.row p {
+  font-size: 21px;
+  margin-bottom: 2%;
+  font-weight: 800;
+  background-color: darkorange;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
